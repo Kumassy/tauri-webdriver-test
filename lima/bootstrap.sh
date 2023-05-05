@@ -1,8 +1,10 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt-get install -y curl git vim build-essential pkg-config
+
 # for building tauri project
-sudo apt-get install -y libgtk-3-dev \
+sudo apt-get install -y \
+    libgtk-3-dev \
     webkit2gtk-4.0 \
     libappindicator3-dev \
     librsvg2-dev \

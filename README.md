@@ -5,6 +5,9 @@ A demo to run [WebDriver Test](https://tauri.app/v1/guides/testing/webdriver/int
 
 ```
 limactl start --name=tauri-webdriver lima.yaml
+limactl shell tauri-webdriver
+[lima]$ cd /Users/<macOS user name>/path/to/tauri-webdriver-test/lima
+[lima]$ ./bootstrap.sh
 ```
 
 
