@@ -45,7 +45,7 @@ function App() {
           <button type="submit">Greet</button>
         </form>
       </div>
-      <p>{greetMsg}</p>
+      <p id="greet-response">{greetMsg}</p>
     </div>
   );
 }
