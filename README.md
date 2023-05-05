@@ -1,10 +1,16 @@
 # Tauri Webdriver Test
 A demo to run [WebDriver Test](https://tauri.app/v1/guides/testing/webdriver/introduction) on macOS with Apple Silicon.
 
+## Prerequisite
+You need to install and run [XQuartz](https://www.xquartz.org/).
+
+
 ## Create Lima VM
+WebDriver Test only support Windows and Linux, so you need to run Ubuntu on top of your macOS.
+You can easily create Ubuntu environment using [Lima](https://github.com/lima-vm/lima)
 
 ```
-limactl start --name=tauri-webdriver lima.yaml
+limactl start --name=tauri-webdriver path/to/tauri-webdriver-test/lima/lima.yaml
 limactl shell tauri-webdriver
 [lima]$ cd /Users/<macOS user name>/path/to/tauri-webdriver-test/lima
 [lima]$ ./bootstrap.sh
